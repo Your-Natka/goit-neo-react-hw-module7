@@ -1,0 +1,15 @@
+.app {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 30px;
+  color: #1f2937;
+}
