@@ -13,6 +13,9 @@ export default function ContactForm() {
     const name = form.elements.name.value.trim();
 
     const number = form.elements.number.value.trim();
+    if (!name || !number) {
+      return;
+    }
 
     dispatch(
       addContact({
